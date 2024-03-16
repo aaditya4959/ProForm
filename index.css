@@ -8,9 +8,12 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color:black;
+    color: white;
     min-width: 100vw;
     padding: 1%;
+    position: fixed;
+    /* backdrop-filter: blur(2px solid rgba(255, 255, 255, 0)); */
 }
 .logo{
     font-size: xx-large;
@@ -27,6 +30,8 @@ header nav{
 }
 
 .entry{
+
+    /* color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,13 +39,32 @@ header nav{
     font-size: x-large;
 }
 .entry li{
+    /* color: white; */
     margin: 20px;
     white-space: nowrap;
     /* text-decoration: none; */
 }
 .entry li a{
+
+    color: white;
     text-decoration: none;
-    color: black;
+    
+}
+
+.home{
+    background-color: black;
+    display: flex;
+
+}
+
+.himage{
+    background-image: url(/ProForm/images/Motivational\ fitness.jpeg);
+    background-repeat: no-repeat;
+    /* display: flex; */
+    min-width: 40vw;
+    min-height: 100vh;
+    /* backdrop-filter: blur(2px solid rgba(255, 255, 255, 0)); */
+    
 }
 
 
