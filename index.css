@@ -51,21 +51,22 @@ header nav{
     
 }
 
+.signup{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+
 .home{
-    background-color: black;
-    display: flex;
-
-}
-
-.himage{
     background-image: url(/ProForm/images/Motivational\ fitness.jpeg);
-    background-repeat: no-repeat;
-    /* display: flex; */
-    min-width: 40vw;
+    background-repeat: none;
+    background-size: cover;
+    min-width: 100vw;
     min-height: 100vh;
-    /* backdrop-filter: blur(2px solid rgba(255, 255, 255, 0)); */
-    
 }
+
 
 
 
