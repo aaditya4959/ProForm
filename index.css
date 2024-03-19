@@ -1,72 +1,126 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:black;
-    color: white;
-    min-width: 100vw;
-    padding: 1%;
-    position: fixed;
-    /* backdrop-filter: blur(2px solid rgba(255, 255, 255, 0)); */
-}
-.logo{
-    font-size: xx-large;
-}
-.features{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    font-size: large;
-}
-.features li{
-    margin: 20px;
-}
-
-.entry{
-
-    /* color: white; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    font-size: x-large;
-}
-.entry li{
-    /* color: white; */
-    margin: 20px;
-    white-space: nowrap;
-    /* text-decoration: none; */
-}
-.entry li a{
-
-    color: white;
-    text-decoration: none;
-    
-}
-
-.signup{
-    border: 2px solid red;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: red;
-}
-
-
-.home{
-    background-image: url(/ProForm/images/Motivational\ fitness.jpeg);
-    background-repeat: none;
-    background-size: cover;
+main{
     min-width: 100vw;
     min-height: 100vh;
 }
 
+nav{
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.Logo{
+    color: rgb(253, 181, 46);
+}
+/* nav h2{
+    font-weight: 400;
+} */
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
 
 
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    padding: 5px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(253, 181, 46);
+    border-top: 2px solid rgb(253, 181, 46);
+    border-bottom: 2px solid rgb(253, 181, 46);
+    border-radius: 10px;
+    /* transition: ease-out; */
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+}
 
+.home{
+    min-height:85vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/Motivational\ fitness.jpeg);
+    background-repeat: none;
+    background-size: cover;
+}
+.homepara{
+    color: rgb(253, 181, 46);
+    font-size: 64px;
+    
+}
+
+
+/*Second Section*/
+
+.center1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.subdivs{
+    display: flex;
+    flex: 1 1 33%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subdivs p{
+    display: flex;
+    align-items: center;
+}
+.parts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+
+.part2{
+    font-size: 70px;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.number{
+    font-size: 60px;
+    font-weight:400;
+    color: rgb(121, 147, 30);
+}
+
+.sec{
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+}

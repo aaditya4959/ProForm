@@ -4,30 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProForm</title>
-    <link rel="stylesheet" href="/ProForm/index.css">
+    <link rel="stylesheet" href="/index.css">
+    
 </head>
 <body>
-    <header>
+    <header class="main">
         <nav>
-            <h2 class="logo">ProForm</h2>
-            <ul class="features">
-                <li>Feature1</li>
-                <li>Feature2</li>
-                <li>Feature3</li>
-                <li>Feature4</li>
-            </ul>
-            <ul class="entry">
-                <li class="login"><a href="#">Log-In</a></li>
-                <li class="signup"><a href="#">Sign-Up</a></li>
+            <h2 class = "Logo">ProForm</h2>
+            <ul class = "navElements">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Training</a></li>
+                <li><a href="#">Nutrition</a></li>
+                <li><a href="#">PlayGround</a></li>
+                <li><a href="#">Log-In</a></li>
             </ul>
         </nav>
-    </header>
-    <div class="home">
-        <div class="homepara">
-            
+        <div class="home">
+            <p class="homepara"></p>
+
         </div>
-        
+    </header>
+
+    <div class="center1">
+        <div class="subdiv1 subdivs">
+            <div class="part1 parts">
+                <p class="number">7000+</p>
+                <p class="sec">Bodies thriving better than ever before</p>
+
+            </div>
+            <!-- <hr> -->
+            <div class="part2 parts">
+                <p class="why">Why Us?</p>
+
+            </div>
+            <div class="part3 parts">
+                <p class="number">80%</p>
+                <p class="sec">Decrease in lifestyle disorders</p>
+            </div>
+
+        </div>
+        <!-- <hr> -->
+        <div class="subdiv2 subdivs">
+            <div class="part4 parts">
+                <p class="number">5</p>
+                <p class="sec">Days a week</p>
+            </div>
+            <div class="part5 parts">
+                <p class="number">40</p>
+                <p class="sec">Minutes per day</p>
+            </div>
+            <div class="part6 parts">
+                <p class="number">100%</p>
+                <p class="sec">Success rate</p>
+            </div>
+
+        </div>
     </div>
-    
+
+
+    <div class="services">
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".homepara",{
+            strings:["Do the right exercise correctly", "Begin your fitness journey !"],
+            typeSpeed :150,
+            backSpeed :200,
+            loop :true
+        })
+    </script>
 </body>
 </html>
