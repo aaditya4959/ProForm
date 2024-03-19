@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <div class="home">
-            <p class="homepara"></p>
+            <p class="homepara"></p>  <!--This  written usinng the scripting.--> 
 
         </div>
     </header>
@@ -66,12 +66,17 @@
 
     </div>
 
+
+    <!--// Scripting Code {Later will be transfered to the index.js}-->
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".homepara",{
             strings:["Do the right exercise correctly", "Begin your fitness journey !"],
-            typeSpeed :150,
-            backSpeed :200,
+            typeSpeed :60,
+            // backSpeed :100,
+            backDelay:1000,
+            fadeout:true,
             loop :true
         })
     </script>
