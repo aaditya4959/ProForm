@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body{
-    background-color: rgb(253, 181, 46);;
+    background-color: rgb(253, 181, 46);
 }
 
 main{
@@ -128,4 +132,142 @@ nav ul li a:hover{
     font-size: 30px;
     font-weight: 200;
     color: white;
+}
+
+.servicePara{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 100vw;
+}
+
+.diet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 80vh;
+    background-image: url(/images/DietPhoto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.dietPara{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(241, 238, 232);
+    font-size: 40px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: rgb(253, 181, 46);
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+
+}
+.links a{
+    
+    font-size: 60px;
+    text-decoration: none;
+    color:rgb(253, 181, 46);
+}
+
+
+.fitness{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 100vw;
+    min-height: 80vh;
+    background-image: url(/images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fitnessPara{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(241, 238, 232);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: rgb(253, 181, 46);
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+
+}
+.links a{
+    
+    font-size: 60px;
+    text-decoration: none;
+    color:rgb(253, 181, 46);
+}
+
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 100vw;
+    min-height: 80vh;
+    background-image: url(/images/MAN.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.playPara{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(241, 238, 232);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: rgb(253, 181, 46);
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+
+}
+.links a{
+    
+    font-size: 60px;
+    text-decoration: none;
+    color:rgb(253, 181, 46);
 }
