@@ -28,8 +28,8 @@
     <div class="center1">
         <div class="subdiv1 subdivs">
             <div class="part1 parts">
-                <p class="number">7000+</p>
-                <p class="sec">Bodies thriving better than ever before</p>
+                <p class="number" data-val = "7000">0000</p>
+                <p class="sec"> Plus bodies thriving better than ever before</p>
 
             </div>
             <!-- <hr> -->
@@ -38,24 +38,24 @@
 
             </div>
             <div class="part3 parts">
-                <p class="number">80%</p>
-                <p class="sec">Decrease in lifestyle disorders</p>
+                <p class="number" data-val="80">00</p>
+                <p class="sec"> Percent decrease in lifestyle disorders</p>
             </div>
 
         </div>
         <!-- <hr> -->
         <div class="subdiv2 subdivs">
             <div class="part4 parts">
-                <p class="number">5</p>
+                <p class="number" data-val="5">0</p>
                 <p class="sec">Days a week</p>
             </div>
             <div class="part5 parts">
-                <p class="number">40</p>
+                <p class="number" data-val="40">00</p>
                 <p class="sec">Minutes per day</p>
             </div>
             <div class="part6 parts">
-                <p class="number">100%</p>
-                <p class="sec">Success rate</p>
+                <p class="number" data-val="100">000</p>
+                <p class="sec">Percent success rate</p>
             </div>
 
         </div>
@@ -79,6 +79,28 @@
             fadeout:true,
             loop :true
         })
+    </script>
+    
+
+    <!--Script for increasing numbers-->
+    <script>
+        let valueDisplays = document.querySelectorAll(".number");
+        let interval = 5000;
+
+        valueDisplays.forEach((valueDisplay) => {
+            let startValue = 0;
+            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+            // console.log(endValue);
+            let duration = Math.floor(interval/endValue);
+
+            let counter = setInterval(function(){
+                startValue+=1;
+                valueDisplay.textContent = startValue;
+                if(startValue == endValue){
+                    clearInterval(counter);
+                }
+            });
+        });
     </script>
 </body>
 </html>
